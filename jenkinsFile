@@ -1,8 +1,8 @@
 node{
-  stage{
+  stage('Python'){
     bat "py Hel.py"
   }
-  stage{
+  stage("Java"){
     bat "javac Hello.java"
     bat "java Hello"
   }
