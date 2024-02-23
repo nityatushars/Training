@@ -1,0 +1,9 @@
+node{
+  stage{
+    bat "py Hel.py"
+  }
+  stage{
+    bat "javac Hello.java"
+    bat "java Hello"
+  }
+}
